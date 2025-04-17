@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Tech from './components/Tech'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <div className='container mx-auto px-8'>
                     <Navbar/>
                     <Hero/>
+                    <Tech/>
                 </div>
 
             </div>
