@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer who loves crafting beautiful and responsive web interfaces. I specialize in turning complex ideas into clean, functional, and visually appealing designs. With solid experience in React, Tailwind CSS, and modern web development tools, I focus on writing scalable and maintainable code. I’m always eager to learn new technologies and stay updated with the latest trends in frontend development. My goal is to deliver smooth, user-friendly digital experiences that leave a lasting impression and add real value to every project I work on.`;
 
@@ -45,7 +46,7 @@ export const PROJECTS = [
         image: project1,
         description:
             "A MERN stack-based website enabling real-time safari bookings with dynamic routing and hotel data integration through REST APIs.",
-        technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "MongoDB"],
+        technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "MongoDB", "Git", "GitHub"],
     },
     {
         title: "Digiflex Website",
@@ -68,6 +69,14 @@ export const PROJECTS = [
             "A personal portfolio website showcasing projects, skills, and contact information.",
         technologies: ["React", "Vite", "Tailwind CSS", "Git", "GitHub"],
     },
+    {
+        title: "Razorpay Clone",
+        image: project5,
+        description:
+            "A fully responsive Razorpay clone website replicating the modern UI/UX and payment flow using React and Tailwind CSS.",
+        technologies: ["React", "CSS", "JavaScript", "Tailwind CSS"],
+    }
+    
 ];
 
 export const CONTACT = {

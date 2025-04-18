@@ -9,6 +9,8 @@ const Projects = () => {
             <div>
                 {
                     PROJECTS.map((project, index) => (
+
+                        
                         <div key={index} className="mb-8 flex flex-wrap lg:gap-x-4 lg:justify-center">
 
                             <div className="w-full lg:w-1/4">
