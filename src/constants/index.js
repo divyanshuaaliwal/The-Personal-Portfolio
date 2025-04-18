@@ -39,33 +39,34 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+   
     {
-        title: "E-Commerce Website",
+        title: "MP Jungle Safari",
         image: project1,
         description:
-            "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-        technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+            "A MERN stack-based website enabling real-time safari bookings with dynamic routing and hotel data integration through REST APIs.",
+        technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "MongoDB"],
     },
     {
-        title: "Task Management App",
+        title: "Digiflex Website",
         image: project2,
         description:
-            "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-        technologies: ["HTML", "CSS", "Angular", "Firebase"],
+            "A 60+ page company website built from scratch, focusing on responsive UI and performance across devices. Led a team of 10+ developers and handled deployment and GitHub-based collaboration.",
+        technologies: ["HTML", "React", "Vite", "Tailwind CSS", "Git", "GitHub"],
+    },
+    {
+        title: "Tractors-24",
+        image: project3,
+        description:
+            "Responsive MERN web application showcasing tractor listings with modern UI using MUI and smooth client-side routing.",
+        technologies: ["React", "Node.js", "Express", "MongoDB", "Material UI", "Git", "GitHub"],
     },
     {
         title: "Portfolio Website",
-        image: project3,
-        description:
-            "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    },
-    {
-        title: "Blogging Platform",
         image: project4,
         description:
-            "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-        technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+            "A personal portfolio website showcasing projects, skills, and contact information.",
+        technologies: ["React", "Vite", "Tailwind CSS", "Git", "GitHub"],
     },
 ];
 
