@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.png";
+// import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer who loves crafting beautiful and responsive web interfaces. I specialize in turning complex ideas into clean, functional, and visually appealing designs. With solid experience in React, Tailwind CSS, and modern web development tools, I focus on writing scalable and maintainable code. I’m always eager to learn new technologies and stay updated with the latest trends in frontend development. My goal is to deliver smooth, user-friendly digital experiences that leave a lasting impression and add real value to every project I work on.`;
 
@@ -11,10 +11,10 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
     {
         year: "2025 - Present",
-        role: "Frontend DeveloperIntern",
-        company: "Quest Digiflex Pvt LTD",
-        description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-        technologies: ["Javascript", "React.js", "Tailwind CSS", "Vite"],
+        role: "Frontend Developer",
+        company: "Quest Digiflex Pvt. LTD",
+        description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and implemented RESTful APIs. Collaborated with managers on live projects to gather requirements and align frontend goals. Built responsive, cross-device compatible UIs and developed reusable, modular components to enhance scalability and maintainability.`,
+        technologies: ["Javascript", "React.js", "Tailwind CSS", "Material UI", "Vite", "Git", "GitHub"],
     },
     // {
     //     year: "2022 - 2023",
@@ -46,36 +46,36 @@ export const PROJECTS = [
         image: project1,
         description:
             "A MERN stack-based website enabling real-time safari bookings with dynamic routing and hotel data integration through REST APIs.",
-        technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "MongoDB", "Git", "GitHub"],
+        technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "MongoDB"],
     },
     {
         title: "Digiflex Website",
         image: project2,
         description:
             "A 60+ page company website built from scratch, focusing on responsive UI and performance across devices. Led a team of 10+ developers and handled deployment and GitHub-based collaboration.",
-        technologies: ["HTML", "React", "Vite", "Tailwind CSS", "Git", "GitHub"],
+        technologies: ["HTML", "React", "Vite", "Tailwind CSS"],
     },
     {
         title: "Tractors-24",
         image: project3,
         description:
             "Responsive MERN web application showcasing tractor listings with modern UI using MUI and smooth client-side routing.",
-        technologies: ["React", "Node.js", "Express", "MongoDB", "Material UI", "Git", "GitHub"],
+        technologies: ["React", "Node.js", "Express", "MongoDB", "Material UI"],
     },
     {
         title: "Portfolio Website",
         image: project4,
         description:
             "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: ["React", "Vite", "Tailwind CSS", "Git", "GitHub"],
+        technologies: ["React", "Vite", "Tailwind CSS"],
     },
-    {
-        title: "Razorpay Clone",
-        image: project5,
-        description:
-            "A fully responsive Razorpay clone website replicating the modern UI/UX and payment flow using React and Tailwind CSS.",
-        technologies: ["React", "CSS", "JavaScript", "Tailwind CSS"],
-    }
+    // {
+    //     title: "Razorpay Clone",
+    //     image: project5,
+    //     description:
+    //         "A fully responsive Razorpay clone website replicating the modern UI/UX and payment flow using React and Tailwind CSS.",
+    //     technologies: ["React", "CSS", "JavaScript", "Tailwind CSS"],
+    // }
     
 ];
 
