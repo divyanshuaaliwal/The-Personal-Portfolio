@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Tech from './components/Tech'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                     <Tech/>
                     <Projects/>
                     <Experience/>
+                    <Contact/>
                 </div>
 
             </div>

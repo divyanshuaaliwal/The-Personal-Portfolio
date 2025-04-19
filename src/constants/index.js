@@ -69,18 +69,10 @@ export const PROJECTS = [
             "A personal portfolio website showcasing projects, skills, and contact information.",
         technologies: ["React", "Vite", "Tailwind CSS"],
     },
-    // {
-    //     title: "Razorpay Clone",
-    //     image: project5,
-    //     description:
-    //         "A fully responsive Razorpay clone website replicating the modern UI/UX and payment flow using React and Tailwind CSS.",
-    //     technologies: ["React", "CSS", "JavaScript", "Tailwind CSS"],
-    // }
-    
 ];
 
 export const CONTACT = {
-    address: "767 Fifth Avenue, New York, NY 10153 ",
-    phoneNo: "+91 74899 51720 ",
+    address: "Rajendra Nagar Indore, 452012",
+    phoneNo: `+91 7489951720`,
     email: "divyanshuaaliwal@gmail.com",
 };
