@@ -49,18 +49,18 @@ export const PROJECTS = [
         technologies: ["React", "Tailwind CSS", "Vite", "Node.js", "Express", "MongoDB"],
     },
     {
-        title: "Digiflex Website",
-        image: project2,
-        description:
-            "A 60+ page company website built from scratch, focusing on responsive UI and performance across devices. Led a team of 10+ developers and handled deployment and GitHub-based collaboration.",
-        technologies: ["HTML", "React", "Vite", "Tailwind CSS"],
-    },
-    {
         title: "Tractors-24",
         image: project3,
         description:
             "Responsive MERN web application showcasing tractor listings with modern UI using MUI and smooth client-side routing.",
         technologies: ["React", "Node.js", "Express", "MongoDB", "Material UI"],
+    },
+    {
+        title: "Digiflex Website",
+        image: project2,
+        description:
+            "A 60+ page company website built from scratch, focusing on responsive UI and performance across devices. Led a team of 10+ developers and handled deployment and GitHub-based collaboration.",
+        technologies: ["HTML", "React", "Vite", "Tailwind CSS"],
     },
     {
         title: "Portfolio Website",
