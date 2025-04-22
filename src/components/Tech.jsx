@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import React from 'react'
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiCss3, DiHtml5, DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { BiLogoGit, BiLogoJavascript } from "react-icons/bi";
+import { DiHtml5 } from "react-icons/di";
+import { FaCss3, FaGithub } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiJavascript, SiMongodb, SiTailwindcss } from "react-icons/si";
-import { TbBrandGit, TbBrandGithub, TbBrandJavascript, TbBrandNextjs, TbBrandTailwind, TbGif, TbGitBranch } from "react-icons/tb";
+import { SiMui } from "react-icons/si";
+import { TbBrandTailwind } from "react-icons/tb";
 
 const Technologies = () => {
     
@@ -42,7 +42,7 @@ const Technologies = () => {
                 className="flex flex-wrap items-center justify-center gap-4"
             >
                 
-                <motion.div
+                {/* <motion.div
                     className="p-4"
                     initial="initial"
                     animate='animate'
@@ -95,7 +95,98 @@ const Technologies = () => {
                     variants={iconVariants(4)}
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
+                </motion.div> 
+                
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(4)}
+                >
+                    <BiLogoVisualStudio className="text-7xl text-sky-500" />
+                    
+                </motion.div> */}
+                
+
+               
+
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(2)}
+                >
+                    <DiHtml5 className="text-7xl text-orange-500" />
                 </motion.div>
+                
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(6)}
+                >
+                    <FaCss3 className="text-7xl text-blue-500" />
+                </motion.div>   
+
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(4)}
+                >
+                    <BiLogoJavascript className="text-7xl text-yellow-500" />
+                </motion.div>
+
+                <motion.div
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(2.5)}
+                >
+
+                    <RiReactjsLine className="text-7xl text-cyan-400" />
+                </motion.div>
+
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(3)}
+                >
+
+                    <TbBrandTailwind className="text-7xl  text-cyan-400" />
+                </motion.div>
+                
+                
+                               
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(4)}
+                >
+                    <SiMui className="text-7xl text-sky-500" />
+
+                </motion.div>
+                
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(6)}
+                >
+                    <BiLogoGit className="text-7xl text-orange-500" />
+                </motion.div>
+                
+                <motion.div 
+                    className="p-4"
+                    initial="initial"
+                    animate='animate'
+                    variants={iconVariants(4)}
+                >
+                    <FaGithub className="text-7xl text-sky-700" />
+                </motion.div>
+
 
             </motion.div>
         </div>
