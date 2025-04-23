@@ -72,7 +72,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-    address: "Rajendra Nagar Indore, 452012",
+    address: "Rajendra Nagar, Indore - 452012",
     phoneNo: `+91 7489951720`,
     email: "divyanshuaaliwal@gmail.com",
 };
