@@ -89,7 +89,7 @@ const Hero = () => {
                                 {isExpanded ? " " : ""}
                                 <button
                                     onClick={toggleReadMore}
-                                    className="rounded bg-stone-900 p-1/2 text-sm font-medium text-stone-300 md:hidden"
+                                    className="rounded-sm bg-stone-900 p-1 text-sm font-medium text-stone-300 md:hidden"
                                 >
                                     {isExpanded ? "Read less" : "Read more"}
                                 </button>
