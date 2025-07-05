@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
-// import project5 from "../assets/projects/project-5.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer who loves crafting beautiful and responsive web interfaces. I specialize in turning complex ideas into clean, functional, and visually appealing designs. With solid experience in React, Tailwind CSS, and modern web development tools, I focus on writing scalable and maintainable code. I’m always eager to learn new technologies and stay updated with the latest trends in frontend development. My goal is to deliver smooth, user-friendly digital experiences that leave a lasting impression and add real value to every project I work on.`;
 
@@ -40,7 +40,12 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-   
+    {
+        title: "Ujjain Mahakal Website",
+        image: project5, 
+        description: "A responsive and SEO-optimized spiritual tourism platform built with Next.js and CSS Modules for UjjainMahakal.com. Integrated REST APIs to handle dynamic bookings for tours, poojas, hotels, vehicles, and helicopter packages. Cloud-based image hosting with Contabo improved load speed by 40%.",
+        technologies: ["React", "Next.js", "CSS Modules", "REST API", "Contabo Cloud"],
+    },
     {
         title: "MP Jungle Safari",
         image: project1,
