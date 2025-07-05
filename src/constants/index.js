@@ -43,7 +43,7 @@ export const PROJECTS = [
     {
         title: "Ujjain Mahakal Website",
         image: project5, 
-        description: "A responsive and SEO-optimized spiritual tourism platform built with Next.js and CSS Modules for UjjainMahakal.com. Integrated REST APIs to handle dynamic bookings for tours, poojas, hotels, vehicles, and helicopter packages. Cloud-based image hosting with Contabo improved load speed by 40%.",
+        description: "A spiritual tourism website that lets users book Tours, Hotels, Vehicles, Poojas, and Helicopter Packages.",
         technologies: ["React", "Next.js", "CSS Modules", "REST API", "Contabo Cloud"],
     },
     {
