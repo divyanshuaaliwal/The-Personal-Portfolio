@@ -96,7 +96,7 @@ const Hero = () => {
                             </p>
                         </motion.div>
 
-                        <motion.a href='/resume.pdf' target='_blank' rel='noopener-noreferrer'
+                        <motion.a href='/Divyanshu_Aaliwal_Resume.pdf' target='_blank' rel='noopener-noreferrer'
                             variants={childVariants}
                             className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'
                             download
