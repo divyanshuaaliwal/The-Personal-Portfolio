@@ -4,17 +4,17 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate frontend developer who loves crafting beautiful and responsive web interfaces. I specialize in turning complex ideas into clean, functional, and visually appealing designs. With solid experience in React, Tailwind CSS, and modern web development tools, I focus on writing scalable and maintainable code. I’m always eager to learn new technologies and stay updated with the latest trends in frontend development. My goal is to deliver smooth, user-friendly digital experiences that leave a lasting impression and add real value to every project I work on.`;
+export const HERO_CONTENT = `I’m a freelance developer dedicated to creating responsive, modern, and user-friendly web interfaces. I help businesses and individuals turn ideas into clean, functional, and visually appealing websites and applications. With strong expertise in React, Next and the latest web technologies, I deliver scalable solutions tailored to client needs. My focus is on building smooth digital experiences that not only look great but also provide real value. I continuously adapt to new tools and trends to ensure every project is efficient, maintainable, and impactful.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
     {
-        year: "2025 - Present",
+        year: "Jan 2025 - Sept 2025",
         role: "Frontend Developer",
         company: "Quest Digiflex Pvt. LTD",
         description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and implemented RESTful APIs. Collaborated with managers on live projects to gather requirements and align frontend goals. Built responsive, cross-device compatible UIs and developed reusable, modular components to enhance scalability and maintainability.`,
-        technologies: ["Javascript", "React.js", "Tailwind CSS", "Material UI", "Vite", "Git", "GitHub"],
+        technologies: ["Javascript", "React","Next", "Tailwind CSS", "Material UI", "Vite", "Git", "GitHub"],
     },
     // {
     //     year: "2022 - 2023",

@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import React from 'react'
 import { BiLogoGit, BiLogoJavascript } from "react-icons/bi";
 import { DiHtml5 } from "react-icons/di";
-import { FaCss3, FaGithub } from "react-icons/fa";
+import { FaCss3, FaGithub , FaNodeJs} from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMui } from "react-icons/si";
-import { TbBrandTailwind } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandTailwind  } from "react-icons/tb";
 
 const Technologies = () => {
     
@@ -42,7 +42,7 @@ const Technologies = () => {
                 className="flex flex-wrap items-center justify-center gap-4"
             >
                 
-                {/* <motion.div
+                 <motion.div
                     className="p-4"
                     initial="initial"
                     animate='animate'
@@ -51,7 +51,7 @@ const Technologies = () => {
 
                     <RiReactjsLine className="text-7xl text-cyan-400" />
                 </motion.div>
-
+               
                 <motion.div 
                     className="p-4"
                     initial="initial"
@@ -61,23 +61,23 @@ const Technologies = () => {
                     <TbBrandNextjs className="text-7xl" />
                 </motion.div>
                 
-                <motion.div
+                {/* <motion.div
                     className="p-4"
                     initial="initial"
                     animate='animate'
                     variants={iconVariants(5)}
                 >
                     <SiMongodb className="text-7xl text-cyan-500" />
-                </motion.div>
+                </motion.div> */}
                 
-                <motion.div 
+                {/* <motion.div 
                     className="p-4"
                     initial="initial"
                     animate='animate'
                     variants={iconVariants(2)}
                 >
                     <DiRedis className="text-7xl text-red-700" />
-                </motion.div>
+                </motion.div> */}
                 
                 <motion.div 
                     className="p-4"
@@ -88,16 +88,16 @@ const Technologies = () => {
                     <FaNodeJs className="text-7xl text-green-500" />
                 </motion.div>
                 
-                <motion.div 
+                {/* <motion.div 
                     className="p-4"
                     initial="initial"
                     animate='animate'
                     variants={iconVariants(4)}
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
-                </motion.div> 
+                </motion.div>  */}
                 
-                <motion.div 
+                {/* <motion.div 
                     className="p-4"
                     initial="initial"
                     animate='animate'
@@ -137,7 +137,7 @@ const Technologies = () => {
                     <BiLogoJavascript className="text-7xl text-yellow-500" />
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                     className="p-4"
                     initial="initial"
                     animate='animate'
@@ -145,7 +145,7 @@ const Technologies = () => {
                 >
 
                     <RiReactjsLine className="text-7xl text-cyan-400" />
-                </motion.div>
+                </motion.div> */}
 
                 <motion.div 
                     className="p-4"
